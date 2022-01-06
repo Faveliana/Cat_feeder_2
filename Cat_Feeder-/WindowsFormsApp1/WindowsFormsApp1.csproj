@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F56223FE-8ADE-4D87-97C6-50978454A163}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="add_feederForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_feederForm.Designer.cs">
+      <DependentUpon>add_feederForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Change_scheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Change_scheduleForm.Designer.cs">
+      <DependentUpon>Change_scheduleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check_status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check_status.Designer.cs">
+      <DependentUpon>Check_status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Check_the_scheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Check_the_scheduleForm.Designer.cs">
+      <DependentUpon>Check_the_scheduleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Create_Schedule_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create_Schedule_Form.Designer.cs">
+      <DependentUpon>Create_Schedule_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="feeder_controlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="feeder_controlForm.Designer.cs">
+      <DependentUpon>feeder_controlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Create_userForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create_userForm.Designer.cs">
+      <DependentUpon>Create_userForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="feeder_seting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="feeder_seting.Designer.cs">
+      <DependentUpon>feeder_seting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Feeder_Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feeder_Type.Designer.cs">
+      <DependentUpon>Feeder_Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="feedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="feedForm.Designer.cs">
+      <DependentUpon>feedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Feed_Type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feed_Type.Designer.cs">
+      <DependentUpon>Feed_Type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMetka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMetka.Designer.cs">
+      <DependentUpon>FormMetka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Get_infoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Get_infoForm.Designer.cs">
+      <DependentUpon>Get_infoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLoginForm.Designer.cs">
+      <DependentUpon>AdminLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManualControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManualControl.Designer.cs">
+      <DependentUpon>ManualControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Monitoring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitoring.Designer.cs">
+      <DependentUpon>Monitoring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="adminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminForm.Designer.cs">
+      <DependentUpon>adminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLoginForm.Designer.cs">
+      <DependentUpon>UserLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Form.Designer.cs">
+      <DependentUpon>User_Form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="add_feederForm.resx">
+      <DependentUpon>add_feederForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change_scheduleForm.resx">
+      <DependentUpon>Change_scheduleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check_status.resx">
+      <DependentUpon>Check_status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Check_the_scheduleForm.resx">
+      <DependentUpon>Check_the_scheduleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_Schedule_Form.resx">
+      <DependentUpon>Create_Schedule_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="feeder_controlForm.resx">
+      <DependentUpon>feeder_controlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_userForm.resx">
+      <DependentUpon>Create_userForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="feeder_seting.resx">
+      <DependentUpon>feeder_seting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feeder_Type.resx">
+      <DependentUpon>Feeder_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="feedForm.resx">
+      <DependentUpon>feedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feed_Type.resx">
+      <DependentUpon>Feed_Type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLoginForm.resx">
+      <DependentUpon>AdminLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMetka.resx">
+      <DependentUpon>FormMetka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Get_infoForm.resx">
+      <DependentUpon>Get_infoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManualControl.resx">
+      <DependentUpon>ManualControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitoring.resx">
+      <DependentUpon>Monitoring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserLoginForm.resx">
+      <DependentUpon>UserLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Form.resx">
+      <DependentUpon>User_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
