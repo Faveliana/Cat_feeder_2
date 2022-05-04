@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
         {
            
                 InitializeComponent();
-                comboBox1.Items.Add("Polinacat");
+                comboBox1.Items.Add("Seyidova's");
                 comboBox1.Items.Add("кормушка 1");
                 comboBox1.Items.Add("кормушка 2");
 
